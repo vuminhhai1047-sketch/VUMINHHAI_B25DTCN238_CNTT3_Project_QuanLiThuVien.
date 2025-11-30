@@ -391,7 +391,6 @@ void updateInformationBooks (){
 	for ( int i = 0 ; i < totalBooks ; i++){
 		if ( books[i].bookId == booksId ){
 			
-			
 			printf("\n----------ENTER UPDATE BOOK INFORMATION----------\n"); 
 			do {
 				printf("Nhap tieu de : ");
@@ -683,7 +682,6 @@ void deleteInformationById (){
 		
 		if ( idBooksExisted( booksId) == 1 ){
 	    	printf("\nDanh sach khong ton tai ma nay.\n");
-	    	return; 
     	} 
     	
     	for ( int i = 0 ; i < totalBorrow ; i++ ){
