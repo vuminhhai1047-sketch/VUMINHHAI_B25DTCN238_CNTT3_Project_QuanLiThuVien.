@@ -705,7 +705,7 @@ void deleteInformationById (){
 		confirm[strcspn(confirm , "\n" )] = '\0';
 	
 	     if ( strcmp( confirm , "y") == 0 || strcmp( confirm , "Y") == 0 ){
-	     	for ( int i = 0 ; i < totalBooks - 1 ; i++ ){
+	     	for ( int i = 0 ; i < totalBooks ; i++ ){
 	     		if ( books[i].bookId == booksId ){
 	     			for ( int j = i ; j < totalBooks - 1 ; j++ ){
 	     				books[j] = books[j+1];
